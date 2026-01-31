@@ -1,0 +1,28 @@
+/* App background */
+.stApp {
+    background-color: #1B4D3E;
+    color: #8F9779;
+}
+
+/* Header */
+h1 {
+    color: #8F9779;
+}
+
+/* Buttons */
+div.stButton > button {
+    width: 12em;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Start button */
+div.stButton:first-of-type > button {
+    color: #009E60;
+}
+
+/* Stop button */
+div.stButton:last-of-type > button {
+    color: #76FF7A;
+}
